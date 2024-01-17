@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
@@ -7,7 +8,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../New Spring and Hybernate 2023/10-new-spring-boot-aop/02-spring-boot-aop-demo-pointcut-declarations/pom.xml" />
+        <option value="$PROJECT_DIR$/S2-sort-algorithms/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../New Spring and Hybernate 2023/10-new-spring-boot-aop/02-spring-boot-aop-demo-pointcut-declarations/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">

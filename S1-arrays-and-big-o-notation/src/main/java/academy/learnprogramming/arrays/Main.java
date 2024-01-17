@@ -14,7 +14,11 @@ public class Main {
         intArray[5] = 1;
         intArray[6] = -22;
 
-        System.out.println(intArray[0]);
+        for (int i = 0; i < intArray.length; i++){
+            System.out.println(intArray[i]);
+        }
+
+
 
     }
 
