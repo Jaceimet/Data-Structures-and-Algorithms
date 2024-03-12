@@ -1,6 +1,6 @@
 package academy.learnprogramming.sort;
 
-import sort.type.InsertionSort;
+import sort.type.ShellSort;
 
 public class Main {
 
@@ -12,9 +12,9 @@ public class Main {
       SelectionSort.selectionSort();
         System.out.println("Finished selection sort\n");*/
 
-        InsertionSort.insertionSort();
+        //InsertionSort.insertionSort();
 
-
+        ShellSort.shellSort();
 
 
 
