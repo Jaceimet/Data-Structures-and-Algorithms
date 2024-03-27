@@ -1,6 +1,6 @@
 package academy.learnprogramming.sort;
 
-import sort.type.ShellSort;
+import sort.type.MergeSort;
 
 public class Main {
 
@@ -13,10 +13,25 @@ public class Main {
         System.out.println("Finished selection sort\n");*/
 
         //InsertionSort.insertionSort();
-        //System.out.println("Finished Insertion sort sort\n")
+        //System.out.println("Finished Insertion sort\n")
 
-        ShellSort.shellSort();
-        System.out.println("Finished Shell sort sort\n");
+        //ShellSort.shellSort();
+        //System.out.println("Finished Shell sort\n");
+
+        //System.out.println(Recursion.iterativeFactorial(3)+"\n");
+
+        //System.out.println(Recursion.recursiveFactorial(3)+"\n");
+
+        int[] intArray = {20, 35, -15, 7, 55, 1, -22};
+
+        MergeSort.mergeSort(intArray, 0, intArray.length);
+
+        for (int i = 0; i < intArray.length; i++){
+            System.out.println(intArray[i]);
+        }
+
+        System.out.println("Finished Merge Sort");
+
 
 
     }
